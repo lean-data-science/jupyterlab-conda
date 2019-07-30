@@ -1,4 +1,4 @@
-FROM leandatascience/jupyterlab-basic
+FROM leandatascience/jupyterlab-basic:latest
 
 # Install miniconda to /miniconda
 RUN curl -LO http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
